@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Login Form</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .login-container {
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+
+        .login-container h2 {
+            margin-bottom: 20px;
+        }
+
+        .login-container input[type="text"],
+        .login-container input[type="password"] {
+            width: 90%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        .login-container input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .login-container input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        .login-container p {
+            margin-top: 10px;
+        }
+
+        .social-login {
+            margin-top: 20px;
+        }
+
+        .social-login a {
+            display: inline-block;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 10px 20px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            background-color: #fff;
+        }
+
+        .social-login a img {
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+        button{
+            background-color: palevioletred;
+            direction: unset;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="#" method="post">
+            <input type="text" placeholder="Username" name="username" required>
+            <br>
+            <input type="password" placeholder="Password" name="password" required>
+            <br>
+            <input type="submit" value="Login">
+        </form>
+        <p>Don't have an account? <a href="#">Sign Up</a></p>
+
+        <div class="social-login">
+            <!-- <button >Intagram</button> -->
+<!-- 
+                <a href="" class="icons-icons"><i class="fa fa-facebook  romeo"  width="20" height="20"></i></a>
+                Login with Facebook
+            </a>
+            <a href="#">
+                <img src="" alt="" width="20" height="20">
+                Login with Email -->
+            </a>
+        </div>
+    </div>
+</body>
+</html>
